@@ -208,7 +208,7 @@ module.exports = {
       vote_average,
       vote_count
     }
-    movies.push(movie)
+    movies.unshift(movie)
     res.status(200).send(movies)
   },
 

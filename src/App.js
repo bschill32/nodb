@@ -1,12 +1,12 @@
 import React, { Component } from "react"
-import "./App.css"
-import MoviesWrapper from "./components/MoviesWrapper"
+import "./reset.css"
+// import "./App.css"
+import MoviesWrapper from "./components/MoviesWrapper/MoviesWrapper"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>App</h1>
         <MoviesWrapper />
       </div>
     )

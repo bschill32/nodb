@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # keys
-Keys.js
 # process.env.REACT_APP_
+.env

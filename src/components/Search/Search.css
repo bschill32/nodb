@@ -1,0 +1,32 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #081c24;
+}
+
+.search {
+  /* border: solid black 1px; */
+  /* background-color: purple; */
+}
+.searchBar {
+  border-radius: 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 46px;
+  border: none !important;
+  outline: none;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 100%;
+  line-height: 1.2em;
+  color: #acacac;
+}
+
+.searchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 0 16px;
+  /* background-color: #081c24; */
+  /* padding-bottom: 16px; */
+}
